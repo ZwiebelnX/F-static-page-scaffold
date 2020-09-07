@@ -5,8 +5,9 @@ html {
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
-  font-size: 16px;
+  font-family: "Fix for Mac Chrome 80", system-ui, -apple-system,
+    BlinkMacSystemFont, ".SFNSText-Regular", sans-serif;
+  background-color: #e9ebee;
 }
 
 * {
@@ -17,4 +18,50 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+.header {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  height: 70px;
+  background-color: #3b5998;
+}
+
+.header-content-container {
+  margin-top: 10px;
+  width: 70%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-left-box {
+  display: flex;
+  align-items: flex-end;
+}
+
+.header-facebook-title {
+  font-size: 2.5em;
+  font-weight: 600;
+  color: white;
+}
+
+.header-register-text {
+  border-radius: 0.2em;
+  font-size: 0.8em;
+  margin-left: 10px;
+  margin-bottom: 9px;
+  width: 50px;
+  height: 28px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #42b72a;
+}
+
+.header-signup-text {
+  color: white;
 }
